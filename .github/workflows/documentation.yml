@@ -13,11 +13,7 @@ jobs:
       - uses: actions/setup-python@v3
       - name: Install dependencies
         run: |
-          pip install sphinx sphinx_rtd_theme myst_parser sphinxcontrib-drawio
-      - name: Intall draw.io dependencies
-        run: |
-          wget -O drawio.deb https://github.com/jgraph/drawio-desktop/releases/download/v20.6.2/drawio-amd64-20.6.2.deb
-          sudo apt install xvfb ./drawio.deb
+          pip install sphinx sphinx_rtd_theme myst_parser sphinxcontrib-mermaid
       - name: Sphinx build
         run: |
           sphinx-build doc _build

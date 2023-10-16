@@ -17,7 +17,7 @@ release = '0.1'
 
 extensions = [
     'myst_parser',
-    'sphinxcontrib.drawio'
+    'sphinxcontrib.mermaid'
 ]
 
 templates_path = ['_templates']
