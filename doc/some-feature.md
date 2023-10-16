@@ -3,8 +3,8 @@
 Below lists basic user flow for creating a VM.
 
 ```{mermaid}
+    
     graph TD;
-       
        1(Start)-->2{Login}
        2 --Success--> 3(Select a template)
        2 --Failed--> 4(Troubleshoot) 
@@ -20,5 +20,4 @@ Below lists basic user flow for creating a VM.
        classDef highlight fill:#99ccff;
        classDef white fill:#ffffff;
        class 1,2,3,8 highlight;
-    
 ```
