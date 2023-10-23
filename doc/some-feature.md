@@ -2,7 +2,7 @@
 
 Below lists basic user flow for creating a VM.
 
-```mermaid
+```{mermaid}
 
     sequenceDiagram
       participant Alice
